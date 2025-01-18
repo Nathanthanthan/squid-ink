@@ -1,0 +1,32 @@
+Split view: writing on the left, drawing on the right
+
+Projects can be a single page or a notebook, a notebook bein a collection of pages
+
+Link views option: scrolling on one view will also scroll on the other, allows for example to have
+a written narrative on the left and corresponding drawings on the right, scrolling through both at
+the same time (drawings could be continuous like in webtoons)
+
+Anchor points: anchor points can be assigned to a paragraph in the writing view,
+placing one will also place an indicator on the scrollbar to see at which point it will be triggered.
+An anchor point corresponds to a specific location, transition and zoom level on the draw space,
+reaching it by scrolling down or placing the cursor in the paragraph will prompt the drawing view
+to navigate to the corresponding location with the transition and zoom level associated.
+
+Transitions: regular navigation, fade to black, unzoom - rezoom
+Transitions should have customizable easing
+
+3 drawing possibilities: pixel art, vectors, normal
+You SHOULD be able to export pixel art and vectors at whatever resolution you wish
+Mixing all 3 in a single draw space might be possible using "invisible" layers
+
+Eraser has a normal mode and an "erase object" mode
+
+Writing view should have IDE-like features, such as multiple cursors, numbered lines, indentation, etc.
+
+Maybe add a "coding view" that allows you to draw by writing code?
+
+Drawings can be added to groups and be in multiple layers to provide more options for organization
+
+Variables files (which can be used in multiple projects, similarly to CSS files):
+shortcut EX = "this is an example";
+Now, writing "EX" will automatically write "this is an example"
